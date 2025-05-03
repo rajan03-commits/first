@@ -1,4 +1,3 @@
-FROM nginx
-COPY index.html /usr/share/nginx/html
+FROM ubuntu22.04
 RUN ls
 RUN touch file1
